@@ -14,4 +14,4 @@ Data from Kahn, et al.
 
 R scripts used in exploration of data analyssi steps with RStudio
 
-Added HTML renderings of the notebooks for those who just want to see the presentations
+Added HTML renderings of the notebooks for those who just want to see the presentations. The file irs_diagram.png is an image for the understanding_IRS.html script.

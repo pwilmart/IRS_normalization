@@ -13,3 +13,5 @@ Data from Kahn, et al.
 * iovs_58-13-55-s01.csv
 
 R scripts used in exploration of data analyssi steps with RStudio
+
+Added HTML renderings of the notebooks for those who just want to see the presentations

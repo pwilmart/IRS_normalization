@@ -12,6 +12,6 @@ two jupyter notebook files (R kernel)
 Data from Kahn, et al.
 * iovs_58-13-55-s01.csv
 
-R scripts used in exploration of data analyssi steps with RStudio
+R scripts used in exploration of data analysis steps with RStudio
 
 Added HTML renderings of the notebooks for those who just want to see the presentations. The file irs_diagram.png is an image for the understanding_IRS.html script.

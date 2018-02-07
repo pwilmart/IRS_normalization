@@ -9,6 +9,7 @@ three jupyter notebook files (R kernel)
 * understanding_IRS.ipynb is Part 1 (normalizations)
 * statistical_testing.ipynb is Part 2 (edgeR testing)
 * statistical_testing_ratios.ipynb is Part 3 (taking ratios and using limma)
+* [statistical_testing_ratios_v2.ipynb has modified limma calls]
 
 Data from Kahn, et al.
 * iovs_58-13-55-s01.csv
@@ -20,3 +21,4 @@ Added HTML renderings of the notebooks for those who just want to see the analys
 * irs_diagram.png is an image for the understanding_IRS.html script
 * statistical_testing.html is Part 2
 * statistical_testing_ratios.html is Part 3
+* [statistical_testing_ratios_v2.html has modified limma calls]

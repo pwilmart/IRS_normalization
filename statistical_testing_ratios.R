@@ -55,7 +55,7 @@ row.names(data_ratio) <- annotate_df$`Protein Accession No.`
 boxplot(data_ratio, col = rep(c("red", "green", "blue"), each = 6), main = "Ratio to 'average' standard")
 boxplot(log2(data_ratio), col = rep(c("red", "green", "blue"), each = 6), 
         main = "Log2 ratio to 'average' standard")
-plotDensities(log2(data_ratio), col = rep(c("red", "green", "blue"), each = 6), main = "Ratios")
+plotDensities(log2(data_ratio), col = rep(c("red", "green", "blue"), 6), main = "Ratios")
 
 # function computes CVs per time point
 make_CVs <- function(df) {

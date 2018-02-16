@@ -20,3 +20,5 @@ Added HTML renderings of the notebooks for those who just want to see the analys
 * irs_diagram.png is an image for the understanding_IRS.html script
 * statistical_testing.html is Part 2
 * statistical_testing_ratios.html is Part 3
+
+Added R scripts extracted from the notebooks. These can be used in RStudio or modified for your own analyses.

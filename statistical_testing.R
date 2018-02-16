@@ -85,7 +85,7 @@ et_sl <- exactTest(y_sl, pair = c("early", "late"))
 summary(decideTestsDGE(et_sl)) # this counts up, down, and unchanged genes (here it is proteins)
 
 # the topTags function adds the BH FDR values to an exactTest data frame. Make sure we do not change the row order!
-tt_sl <- topTags(et_sl, n = 10000, sort.by = "none")
+tt_sl <- topTags(et_sl, n = Inf, sort.by = "none")
 tt_sl <- tt_sl$table # tt_sl is a list. We just need the data frame table
 
 # add the default value as a new column
@@ -183,7 +183,7 @@ et_irs <- exactTest(y_irs, pair = c("early", "late"))
 summary(decideTestsDGE(et_irs)) # this counts up, down, and unchanged genes
 
 # the topTags function adds the BH FDR values to an exactTest data frame. Make sure we do not change the row order!
-tt_irs <- topTags(et_irs, n = 10000, sort.by = "none")
+tt_irs <- topTags(et_irs, n = Inf, sort.by = "none")
 tt_irs <- tt_irs$table # tt_sl is a list. We just need the data frame table
 
 # add the default value as a new column

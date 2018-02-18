@@ -9,16 +9,22 @@ three jupyter notebook files (R kernel)
 * understanding_IRS.ipynb is Part 1 (normalizations)
 * statistical_testing.ipynb is Part 2 (edgeR testing)
 * statistical_testing_ratios.ipynb is Part 3 (taking ratios and using limma)
+* statistical_testing_take2.ipynb is Part 4 (testing P0 vs P3)
 
 Data from Kahn, et al.
 * iovs_58-13-55-s01.csv
 
-R scripts used in exploration of data analysis steps with RStudio
+Sample information for design matrix
+* design.csv
+
+Saved results from the statisticl testing
+* final_part3.csv (and final_part3.xlsx)
 
 Added HTML renderings of the notebooks for those who just want to see the analysis steps and figures:
 * understanding_IRS.html is Part 1 (needs the png file)
 * irs_diagram.png is an image for the understanding_IRS.html script
 * statistical_testing.html is Part 2
 * statistical_testing_ratios.html is Part 3
+* statistical_testing_take2.html is Part 4
 
 Added R scripts extracted from the notebooks. These can be used in RStudio or modified for your own analyses.

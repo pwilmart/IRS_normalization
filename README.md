@@ -28,3 +28,6 @@ Added HTML renderings of the notebooks for those who just want to see the analys
 * statistical_testing_take2.html is Part 4
 
 Added R scripts extracted from the notebooks. These can be used in RStudio or modified for your own analyses.
+
+## Other repositories that may be of interest:
+* [TMT data analysis examples](https://github.com/pwilmart/TMT_analysis_examples.git)

@@ -21,7 +21,7 @@ Saved results from the statisticl testing
 * final_part3.csv (and final_part3.xlsx)
 
 Added HTML renderings of the notebooks for those who just want to see the analysis steps and figures:
-* [understanding_IRS.html](understanding_IRS.html) is Part 1 (needs the png file)
+* [understanding_IRS.html](https://pwilmart.github.io/IRS_normalization/understanding_IRS.html) is Part 1 (needs the png file)
 * irs_diagram.png is an image for the understanding_IRS.html script
 * [statistical_testing.html](https://pwilmart.github.io/IRS_normalization/statistical_testing.html) is Part 2
 * [statistical_testing_ratios.html](https://pwilmart.github.io/IRS_normalization/statistical_testing_ratios.html) is Part 3

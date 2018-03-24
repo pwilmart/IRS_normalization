@@ -5,7 +5,7 @@ The IRS method was first described in this publication:
 > Plubell, D.L., Wilmarth, P.A., Zhao, Y., Fenton, A.M., Minnier, J., Reddy, A.P., Klimek, J., Yang, X., David, L.L. and Pamir, N., 2017. Extended multiplexing of tandem mass tags (TMT) labeling reveals age and high fat diet specific proteome changes in mouse epididymal adipose tissue. Molecular & Cellular Proteomics, 16(5), pp.873-890. 
 
 ## Contents:
-Four [jupyter notebook](http://jupyter.org) files (R kernel)
+Four [jupyter notebook](http://jupyter.org) files (R kernel). If you click on the notebook files (*.ipynb extensions), they will render and display in your bowser. Please be patient as they can take a minute to render.
 * understanding_IRS.ipynb is Part 1 (normalizations)
 * statistical_testing.ipynb is Part 2 (edgeR testing)
 * statistical_testing_ratios.ipynb is Part 3 (taking ratios and using limma)

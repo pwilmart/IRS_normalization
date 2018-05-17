@@ -11800,7 +11800,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[30]:</div>
+<div class="prompt input_prompt">In&nbsp;[1]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-r"><pre><span></span><span class="c1"># Analysis of IOVS mouse lens data (Supplemental Table S01):</span>
@@ -11844,7 +11844,15 @@ data_raw <span class="o">&lt;-</span> <span class="kp">as.data.frame</span><span
 
 
 <div class="output_subarea output_stream output_stderr output_text">
-<pre>Parsed with column specification:
+<pre>── Attaching packages ─────────────────────────────────────── tidyverse 1.2.1 ──
+✔ ggplot2 2.2.1     ✔ purrr   0.2.4
+✔ tibble  1.4.2     ✔ dplyr   0.7.4
+✔ tidyr   0.8.0     ✔ stringr 1.3.0
+✔ readr   1.1.1     ✔ forcats 0.3.0
+── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+✖ dplyr::filter() masks stats::filter()
+✖ dplyr::lag()    masks stats::lag()
+Parsed with column specification:
 cols(
   .default = col_double(),
   `Gene Symbol (NCBI)` = col_character(),
@@ -11869,7 +11877,7 @@ See spec(...) for full column specifications.
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[31]:</div>
+<div class="prompt input_prompt">In&nbsp;[2]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-r"><pre><span></span><span class="c1"># separate the TMT data by experiment</span>
@@ -11927,7 +11935,7 @@ data_irs <span class="o">&lt;-</span> <span class="kp">cbind</span><span class="
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[32]:</div>
+<div class="prompt input_prompt">In&nbsp;[3]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-r"><pre><span></span><span class="c1"># set up the sample mapping</span>
@@ -13781,7 +13789,7 @@ QAACEIAABCAAAQhAAAIQgAAEIAABCEAAAhCoRuD/AY4LbTq6b/QOAAAAAElFTkSuQmCC"
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[33]:</div>
+<div class="prompt input_prompt">In&nbsp;[4]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-r"><pre><span></span><span class="c1"># the exact test object has columns like fold-change, CPM, and p-values</span>
@@ -13830,7 +13838,7 @@ Up             49</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[34]:</div>
+<div class="prompt input_prompt">In&nbsp;[5]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-r"><pre><span></span><span class="c1"># the topTags function adds the BH FDR values to an exactTest data frame </span>
@@ -13899,7 +13907,7 @@ tt_sl<span class="o">$</span>candidate <span class="o">&lt;-</span> <span class=
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[35]:</div>
+<div class="prompt input_prompt">In&nbsp;[6]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-r"><pre><span></span><span class="c1"># what does the test p-value distribution look like?</span>
@@ -14747,7 +14755,7 @@ tCaB/wd8AKNk0oLiuAAAAABJRU5ErkJggg=="
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[36]:</div>
+<div class="prompt input_prompt">In&nbsp;[7]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-r"><pre><span></span><span class="c1"># for plotting results, we will use the average intensities for the 6 early and the 6 late samples</span>
@@ -14832,7 +14840,7 @@ volcano_sl <span class="o">&lt;-</span> <span class="kt">data.frame</span><span 
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[37]:</div>
+<div class="prompt input_prompt">In&nbsp;[8]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-r"><pre><span></span><span class="c1"># start with MA plot</span>
@@ -14895,6 +14903,27 @@ ggplot<span class="p">(</span>volcano_sl<span class="p">,</span> aes<span class=
 <div class="output_wrapper">
 <div class="output">
 
+
+<div class="output_area">
+
+<div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stderr output_text">
+<pre>
+Attaching package: ‘scales’
+
+The following object is masked from ‘package:purrr’:
+
+    discard
+
+The following object is masked from ‘package:readr’:
+
+    col_factor
+
+</pre>
+</div>
+</div>
 
 <div class="output_area">
 
@@ -27425,7 +27454,7 @@ AAAAAElFTkSuQmCC"
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[38]:</div>
+<div class="prompt input_prompt">In&nbsp;[9]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-r"><pre><span></span><span class="c1"># create a DGEList object with the IRS data</span>
@@ -29078,7 +29107,7 @@ AAECBAgQIECAAAECBNYT+P/7HkVU4RIRjgAAAABJRU5ErkJggg=="
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[39]:</div>
+<div class="prompt input_prompt">In&nbsp;[10]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-r"><pre><span></span><span class="c1"># the exact test object has columns like fold-change, CPM, and p-values</span>
@@ -29130,7 +29159,7 @@ Up            121</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[40]:</div>
+<div class="prompt input_prompt">In&nbsp;[11]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-r"><pre><span></span><span class="c1"># the topTags function adds the BH FDR values to an exactTest data frame. Make sure we do not change the row order!</span>
@@ -29831,7 +29860,7 @@ rkJggg=="
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[41]:</div>
+<div class="prompt input_prompt">In&nbsp;[12]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-r"><pre><span></span><span class="c1"># for plotting results, we will use the average intensities for the 6 early and the 6 late samples</span>
@@ -41401,7 +41430,7 @@ P6C+FCiHAAAAAElFTkSuQmCC"
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[42]:</div>
+<div class="prompt input_prompt">In&nbsp;[13]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-r"><pre><span></span><span class="kn">library</span><span class="p">(</span>ggExtra<span class="p">)</span>
@@ -41424,6 +41453,17 @@ ggMarginal<span class="p">(</span>corr_plot<span class="p">,</span> type <span c
 <div class="output_wrapper">
 <div class="output">
 
+
+<div class="output_area">
+
+<div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stderr output_text">
+<pre>Warning message:
+“package ‘ggExtra’ was built under R version 3.4.4”</pre>
+</div>
+</div>
 
 <div class="output_area">
 
@@ -44467,7 +44507,7 @@ IiACIiACIpAHAv8P80SYGPKWlhEAAAAASUVORK5CYII="
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[43]:</div>
+<div class="prompt input_prompt">In&nbsp;[14]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-r"><pre><span></span><span class="c1"># create some functions</span>
@@ -44583,7 +44623,7 @@ make_CVs <span class="o">&lt;-</span> <span class="kr">function</span><span clas
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[44]:</div>
+<div class="prompt input_prompt">In&nbsp;[15]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-r"><pre><span></span><span class="c1"># get the averages and SDs for the SL data and plot the crystallins</span>
@@ -47918,7 +47958,7 @@ BERABIqXwP8AudkE1zMlgjgAAAAASUVORK5CYII="
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[45]:</div>
+<div class="prompt input_prompt">In&nbsp;[16]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-r"><pre><span></span><span class="c1"># get the averages and SDs for the IRS data and plot the crystallins</span>
@@ -51293,14 +51333,14 @@ QAIkQAIkQAIkQALxS+D/AcJoexohS7FiAAAAAElFTkSuQmCC"
 <p>These complicated, multi-step experiments require several specific normalizations steps, each addressing particular aspects of unwanted experimental variation. We have defined a unique source of variation in isobaric labeling due to random sampling of MS2 scans that only affects reporter ions when we are combining data from multiple TMT experiments. We described the internal reference scaling (IRS) method to correct for this effect (a sort of batch effect), and demonstrated its superior performance.</p>
 <p>We saw that data on the correct scale is directly compatible with sophisticated statistical packages developed for genomics data. These tools, like edgeR, support typical biological study designs, and are tailored for large numbers of measurements with relatively small numbers of replicates per condition. These tools are ideally suited to these quantitative proteomics datasets.</p>
 <p>We demonstrated just how important an IRS-like normalization step is to get correct results from these statistical tests. The advances in isobaric labeling since its inception are simply stunning. High resolution instruments allow up to 11 channels per experiment. New tribrid instruments allow for high dynamic range, clean measurements of reporter ions at excellent scan rates. And, finally, we see how a modern quantitative analysis workflow completes the transformation of isobaric labeling into a true quantitative systems biology tool.</p>
-<p>&lt;/Br&gt;</p>
+<p>&lt;/br&gt;</p>
 
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[46]:</div>
+<div class="prompt input_prompt">In&nbsp;[17]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-r"><pre><span></span><span class="c1"># log the session information</span>

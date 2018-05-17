@@ -4,7 +4,7 @@ An exploration of internal reference scaling (IRS) normalization in isobaric tag
 The IRS method was first described in this publication:
 > Plubell, D.L., Wilmarth, P.A., Zhao, Y., Fenton, A.M., Minnier, J., Reddy, A.P., Klimek, J., Yang, X., David, L.L. and Pamir, N., 2017. Extended multiplexing of tandem mass tags (TMT) labeling reveals age and high fat diet specific proteome changes in mouse epididymal adipose tissue. Molecular & Cellular Proteomics, 16(5), pp.873-890.
 
-The analysis is of a mouse lens development time course (6 points 3 days apart from E15 tp P9) where three replicates of the time points were done in 3 separate TMT labelings. The lens is a unique system that has been studied for many years and the prior knowledge can be used to guide some analysis steps. The data is from this publication:
+The analysis is of a mouse lens development time course (6 points 3 days apart from E15 to P9) where three replicates of the time points were done in 3 separate TMT labelings. The lens is a unique system that has been studied for many years and the prior knowledge can be used to guide some analysis steps. The data is from this publication:
 > Khan, S.Y., Ali, M., Kabir, F., Renuse, S., Na, C.H., Talbot, C.C., Hackett, S.F. and Riazuddin, S.A., 2018. Proteome Profiling of Developing Murine Lens Through Mass Spectrometry. Investigative Ophthalmology & Visual Science, 59(1), pp.100-107.
 
 ## Contents:
@@ -23,7 +23,7 @@ Sample information for design matrix:
 Saved results from the statisticl testing:
 * final_part3.csv (and final_part3.xlsx)
 
-Added HTML renderings of the notebooks for those who just want to see the analysis steps and figures:
+Added HTML renderings of the notebooks for those who just want to see the analysis steps and figures (these may load faster):
 * [understanding_IRS.html](https://pwilmart.github.io/IRS_normalization/understanding_IRS.html) is Part 1 (needs the png file)
 * irs_diagram.png is an image for the understanding_IRS.html script
 * [statistical_testing.html](https://pwilmart.github.io/IRS_normalization/statistical_testing.html) is Part 2

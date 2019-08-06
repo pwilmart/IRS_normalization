@@ -145,7 +145,8 @@ batch <- design$batch
 
 # run ComBat as alternative to IRS
 # NOTE: sample loading is probably better to do before the batch corection
-data_combat <- ComBat(dat = data_sl, batch = batch, mod = mod, par.prior = TRUE)
+data_combat <- ComBat(dat = as.matrix(data_sl), batch = batch, mod = mod, par.prior = TRUE)
+data_combat <- as.data.frame(data_combat)
 par(mfrow = c(1, 1)) # any plotting in the ComBat call leaves plots as 2x2
 
 # ComBat introduces some negative corrected counts
